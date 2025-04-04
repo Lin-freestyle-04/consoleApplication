@@ -16,7 +16,7 @@ def register_user():
             break
     password = input("Enter your password: ")
     users[username] = {'password': [hash_password(password)], 'posts': []}
-    print("Registration successful!")
+    print("Signup successful!")
 
 # login method
 def login_user():
